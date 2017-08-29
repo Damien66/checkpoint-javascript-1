@@ -20,10 +20,25 @@ var people = [
 // person in the `people` array. Assign the returned array to a variable
 // called `peopleNames`.
 // Type your solution immediately below this line:
+//var peoplesnames =[
+  //{name: "Layla", age: 27},
+  //{name: "keanu", age: 54},
+  //{name: "Jasmine", age: 35},
+  //{knownLanguages: 2}
+//]
 
-
+var peopleNames = people.map(function(person){
+ return person.name
+})
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
+
+var polyglotPeople = people.filter(function(persons){
+ return persons.languages > 2
+})
+//var peopleOlderThan35 = people filter function person() {
+//  return person age <
+//}
