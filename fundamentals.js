@@ -2,7 +2,7 @@
 
 // #1: Create an array of strings called `foods` that contains three foods.
 // Type your solution immediately below this line:
-var Foods = ['chicken', 'piza', 'beef']
+var foods = ['chicken', 'pizza', 'beef']
 
 
 // #2: Access the last item in the array and assign to a variable called `last`.
@@ -13,12 +13,12 @@ var last = foods[2]
 // #3: Create an empty array called `favoriteFoods`.
 // Type your solution immediately below this line:
 
-var favoritefoods = ['']
+var favoriteFoods = ['']
 
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
 // Type your solution immediately below this line:
 
-var foods = ["chicken", "pizza", "beef"]
+var favoriteFoods = ["chicken", "pizza", "beef"]
 
 for (var i =0; i <favoriteFoods.length; i++) {
   console.log(favoriteFoods[i])
@@ -39,4 +39,4 @@ var instructor = {
 // it (do not change the original object you typed above) and assigning it
 // a boolean value.
 // Type your solution immediately below this line:
-instructor["facial-hair"] = true;
+instructor["has-office-hours"] = true;
